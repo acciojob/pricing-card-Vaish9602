@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+display:flex;
+justify-content:center;
+align-items:center;
+	height:800px;
+}
+main{
+border:1px solid whitesmoke;
+width:400px;
+padding:30px;
+background-color:lightgray;
+box-shadow:2px 2px 5px whitesmoke;
+}
+h1,p{
+	text-align:center;
+}
+button{
+border-radius:10px;
+width:100px;
+background-color:red;
+color:white;
+height:50px;
+	display:block;
+	margin:0 auto;
+}
+
